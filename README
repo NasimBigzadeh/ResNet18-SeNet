@@ -14,3 +14,15 @@ After running the notebook, the model will be trained on ECG data and the classi
    MI       0.80      0.60      0.69       256  
  NORM       0.89      0.99      0.94       912  
  STTC       0.73      0.76      0.75       242  
+
+## Topics:
+- ECG-image-classification
+- deep-learning-for-ECG
+- ResNet18-SeNet
+- SE-Net
+- PyTorch
+- heart-disease
+- arrhythmia
+- AI-research
+- medical-diagnosis
+- ResNet18
