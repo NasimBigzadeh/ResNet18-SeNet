@@ -1,0 +1,16 @@
+# ResNet18 with SE Block for ECG Classification
+
+This project implements a modified ResNet18 model enhanced with Squeeze-and-Excitation (SE) blocks for the classification of 12-lead ECG signals. The goal is to improve the model’s performance on the PTB-XL dataset for automatic diagnosis of cardiovascular conditions.
+git clone https://github.com/NasimBigzadeh/ResNet18-SeNet.git
+cd ResNet18-SeNet
+### 📊 Example of Usage
+
+After running the notebook, the model will be trained on ECG data and the classification results will be printed like this:
+
+          precision    recall  f1-score   support
+
+   CD       0.89      0.72      0.80       184  
+  HYP       0.71      0.54      0.61        56  
+   MI       0.80      0.60      0.69       256  
+ NORM       0.89      0.99      0.94       912  
+ STTC       0.73      0.76      0.75       242  
